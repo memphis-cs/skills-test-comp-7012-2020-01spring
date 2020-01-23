@@ -23,7 +23,7 @@
 
     ```bash
     git fetch
-    git checkout --track origin/comp4081-s01
+    git checkout --track origin/comp7012-s01
     ```
 
 ## Part 2. Development Tasks
@@ -44,13 +44,13 @@ You must now initialize and run the project. In particular, you must perform the
 
 Once you've completed all of the above, submit your work by doing the following:
 
-1. Upload your two screenshots to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `comp4081-s01 screenshots only`.
+1. Upload your two screenshots to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `comp7012-s01 screenshots only`.
 
     **This step must be completed by the end of the test time.**
 
 1. Stop your screen-capture recording such that a video file containing the recording is now created.
 
-1. Upload your video recording to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `comp4081-s01 video only`.
+1. Upload your video recording to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `comp7012-s01 video only`.
 
     A 15-minute grace period is given beyond the end of the test time for the submission of your video.
 

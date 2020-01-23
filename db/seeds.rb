@@ -8,28 +8,28 @@
 
 TuringAwardRecipient.create!([
     {
-        name: 'Alan Perlis',
-        year: 1966,
-        rationale: 'For his influence in the area of advanced computer programming techniques and compiler construction.'
+        name: 'Allen Newell and Herbert A. Simon',
+        year: 1975,
+        rationale: 'In joint scientific efforts extending over twenty years, initially in collaboration with J. C. Shaw at the RAND Corporation, and subsequently with numerous faculty and student colleagues at Carnegie Mellon University, they have made basic contributions to artificial intelligence, the psychology of human cognition, and list processing.'
     },
     {
-        name: 'Marvin Minsky',
-        year: 1969,
-        rationale: 'For his central role in creating, shaping, promoting, and advancing the field of artificial intelligence.'
+        name: 'Ken Thompson and Dennis M. Ritchie',
+        year: 1983,
+        rationale: 'For their development of generic operating systems theory and specifically for the implementation of the UNIX operating system.'
     },
     {
-        name: 'Edsger W. Dijkstra',
-        year: 1972,
-        rationale: 'Edsger Dijkstra was a principal contributor in the late 1950s to the development of the ALGOL, a high level programming language which has become a model of clarity and mathematical rigor. He is one of the principal proponents of the science and art of programming languages in general, and has greatly contributed to our understanding of their structure, representation, and implementation. His fifteen years of publications extend from theoretical articles on graph theory to basic manuals, expository texts, and philosophical contemplations in the field of programming languages.'
+        name: 'Robin Milner',
+        year: 1991,
+        rationale: 'For three distinct and complete achievements: 1) LCF, the mechanization of Scott\'s Logic of Computable Functions, probably the first theoretically based yet practical tool for machine assisted proof construction; 2) ML, the first language to include polymorphic type inference together with a type-safe exception-handling mechanism; 3) CCS, a general theory of concurrency. In addition, he formulated and strongly advanced full abstraction, the study of the relationship between operational and denotational semantics.'
     },
     {
-        name: 'Donald Knuth',
-        year: 1974,
-        rationale: 'For his major contributions to the analysis of algorithms and the design of programming languages, and in particular for his contributions to "The Art of Computer Programming" through his well-known books in a continuous series by this title.'
+        name: 'Frederick P. Brooks',
+        year: 1999,
+        rationale: 'For landmark contributions to computer architecture, operating systems, and software engineering.'
     },
     {
-        name: 'John Backus',
-        year: 1977,
-        rationale: 'For profound, influential, and lasting contributions to the design of practical high-level programming systems, notably through his work on FORTRAN, and for seminal publication of formal procedures for the specification of programming languages.'
+        name: 'Alan Kay',
+        year: 2003,
+        rationale: 'For pioneering many of the ideas at the root of contemporary object-oriented programming languages, leading the team that developed Smalltalk, and for fundamental contributions to personal computing.'
     }
 ])
