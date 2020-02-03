@@ -8,28 +8,28 @@
 
 TuringAwardRecipient.create!([
     {
-        name: 'Allen Newell and Herbert A. Simon',
-        year: 1975,
-        rationale: 'In joint scientific efforts extending over twenty years, initially in collaboration with J. C. Shaw at the RAND Corporation, and subsequently with numerous faculty and student colleagues at Carnegie Mellon University, they have made basic contributions to artificial intelligence, the psychology of human cognition, and list processing.'
+        name: 'Frances E. Allen',
+        year: 2006,
+        rationale: 'For pioneering contributions to the theory and practice of optimizing compiler techniques that laid the foundation for modern optimizing compilers and automatic parallel execution.'
     },
     {
-        name: 'Ken Thompson and Dennis M. Ritchie',
-        year: 1983,
-        rationale: 'For their development of generic operating systems theory and specifically for the implementation of the UNIX operating system.'
+        name: 'Edmund M. Clarke, E. Allen Emerson, and Joseph Sifakis',
+        year: 2007,
+        rationale: 'For their roles in developing model checking into a highly effective verification technology, widely adopted in the hardware and software industries.'
     },
     {
-        name: 'Robin Milner',
-        year: 1991,
-        rationale: 'For three distinct and complete achievements: 1) LCF, the mechanization of Scott\'s Logic of Computable Functions, probably the first theoretically based yet practical tool for machine assisted proof construction; 2) ML, the first language to include polymorphic type inference together with a type-safe exception-handling mechanism; 3) CCS, a general theory of concurrency. In addition, he formulated and strongly advanced full abstraction, the study of the relationship between operational and denotational semantics.'
+        name: 'Barbara Liskov',
+        year: 2008,
+        rationale: 'For contributions to practical and theoretical foundations of programming language and system design, especially related to data abstraction, fault tolerance, and distributed computing.'
     },
     {
-        name: 'Frederick P. Brooks',
-        year: 1999,
-        rationale: 'For landmark contributions to computer architecture, operating systems, and software engineering.'
+        name: 'Charles P. Thacker',
+        year: 2009,
+        rationale: 'For his pioneering design and realization of the Xerox Alto, the first modern personal computer, and in addition for his contributions to the Ethernet and the Tablet PC.'
     },
     {
-        name: 'Alan Kay',
-        year: 2003,
-        rationale: 'For pioneering many of the ideas at the root of contemporary object-oriented programming languages, leading the team that developed Smalltalk, and for fundamental contributions to personal computing.'
+        name: 'Leslie G. Valiant',
+        year: 2010,
+        rationale: 'For transformative contributions to the theory of computation, including the theory of probably approximately correct (PAC) learning, the complexity of enumeration and of algebraic computation, and the theory of parallel and distributed computing.'
     }
 ])
