@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
   def darla_says
-    # YOU NEED TO MAKE CHANGES IN THIS METHOD!
+    
     darla_quotes = [
       'It is of interest to note that while some dolphins are reported to have learned English — up to 50 words used in correct context — no human being has been reported to have learned dolphinese.',
       'When the shark laughs with the dolphin, there is a devilish spirit at play.',
@@ -12,7 +12,7 @@ class PagesController < ApplicationController
     ]
     random_quote = darla_quotes.sample
     respond_to do |format|
-      format.html { render :darla_says }
+      format.html { render :darla_says, locals: { random_quote: random_quote } }
     end 
   end
 
