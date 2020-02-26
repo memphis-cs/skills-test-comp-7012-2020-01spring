@@ -1,0 +1,33 @@
+<h1 class="my-4">Cars for Sale</h1>
+
+<p>
+  <%= link_to 'Add Car Listing', new_car_path, class: "font-weight-bold" %>
+</p>
+
+<table class="table table-hover table-striped">
+  <thead>
+    <tr class="table-primary">
+      <th>Make</th>
+      <th>Model</th>
+      <th>Year</th>
+      <th>Price</th>
+      <th>Condition</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% cars.each do |car| %>
+      <tr>
+        <td><%= car.make %></td>
+        <td><%= car.model %></td>
+        <td><%= car.year %></td>
+        <td>$<%= car.price %></td>
+        <td><%= car.condition %></td>
+        <td>
+          <%= link_to '🔎', car_path(car) %>
+          🗑
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
