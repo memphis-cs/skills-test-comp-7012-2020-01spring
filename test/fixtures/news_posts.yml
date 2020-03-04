@@ -1,0 +1,25 @@
+# == Schema Information
+#
+# Table name: news_posts
+#
+#  id         :bigint           not null, primary key
+#  author     :string
+#  headline   :string
+#  story      :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  news_feed: one
+  headline: Is New York’s Best Pizza in New Jersey?
+  author: Pete Wells
+  story: In September, our dining critic crossed the Hudson River, and named Razza Pizza Artigianale in Jersey City home to the region’s best pizza, citing a sauce "which is less acidic and bitter than many, and about as sweet as possible without tasting sugary." Local ingredients like a buffalo mozzarella made from Sussex County water buffaloes helped, too.
+
+two:
+  news_feed: one
+  headline: Five Common Wine Myths, Debunked
+  author: Eric Asimov
+  story: Five of Daniel Boulud's sommeliers held a dinner this year to counter enduring wine shibboleths. Among them? The proper temperature to serve wine and fixations on fine vintages. "I was drawn to this dinner because, as with anyone who writes or talks about wine regularly, I am intimately familiar with all sorts of widely held yet mistaken notions," our wine critic said. "They are worth discussing, as these fallacies can be significant barriers to getting the most pleasure out of drinking wine."
