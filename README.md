@@ -1,4 +1,4 @@
-# Skills Test S6
+# Skills Test S5-Retry
 
 ## Part 1. Starting the Test
 
@@ -18,7 +18,7 @@
 
     ```bash
     git fetch
-    git checkout --track origin/comp4081-s06
+    git checkout --track origin/comp7012-s05retry
     ```
 
 1. Initialize the project by doing the following:
@@ -35,39 +35,31 @@ Do nothing further at this point, and read on.
 
 ## Part 2. Development Tasks
 
-For this test, you have been given a partially complete Rails app for managing population data, and it is your job to complete the app. In particular, there are three main tasks that you must complete:
+For this test, you have been given a partially complete Rails app for managing population data, and it is your job to complete the app.
 
-1. Update the app's model by adding a class association.
-1. Update the seed data to incorporate the changes to the model.
-1. Update the existing `show` page for the parent model class (`Country`) to display child (`City`) objects.
+Run the app and open the URL <http://localhost:3000> in a browser, and this page will be displayed.
 
-### Task 1. Adding a Class Association to the Model
+![A screen shot of a webpage](./comp7012-s05retry_index_before.png)
 
-Currently, the app's model contains two classes (`Country` and `City`), as depicted in the following class diagram:
+Your task is to add a `new`/`create` resource form/action for creating new `Country` entires.
 
-![A class diagram](./comp4081-s06_class_diagram_before.svg)
+The link to the form must look like this on the `index` page:
 
-You must update the model such that an association between the classes is added, as shown in this diagram:
+![A screen shot of a webpage](./comp7012-s05retry_index_after.png)
 
-![A class diagram](./comp4081-s06_class_diagram_after.svg)
+The `new` form must look like this:
 
-### Task 2. Updating the Seed Data
+![A screen shot of a webpage](./comp7012-s05retry_new_after.png)
 
-Having added an association to the model, you must now update the script for seeding the database such that appropriate association links are set between the `Country` and `City` seed objects. (It should be apparent which `City` objects belong to which `Country` objects.)
+The `create` action must function in the usual way. On a successful save, it must display a success message using the `flash` (with the `:notice` key) and redirect the browser to the `index` page, as depicted in this screenshot:
 
-### Task 3. Updating the `show` Page
+![A screen shot of a webpage](./comp7012-s05retry_create_success.png)
 
-Now, run the app, and it will display the following `index` page for `Country` records when the URL <http://localhost:3000> is entered into the browser:
+On a failed save, it must display an error message using the `flash` (with the `alert` key) and re-render the `new` form with the form fields filled with the previously submitted data, as depicted in this screenshot:
 
-![A screen shot of a webpage](./comp4081-s06_index.png)
+![A screen shot of a webpage](./comp7012-s05retry_create_error.png)
 
-Clicking on one of the "`🔎`" links will bring up a partially completed `show` page, like this:
-
-![A screen shot of a webpage](./comp4081-s06_show_before.png)
-
-You must complete this page such that it displays all the `City` records associated with the `Country` record, like this:
-
-![A screen shot of a webpage](./comp4081-s06_show_after.png)
+Hint: The view code for displaying flash messages is already in place. Just be sure to use the correct key when saving a flash message.
 
 ## Part 3. Test Submission
 
@@ -77,24 +69,24 @@ Once you've completed all of the above, submit your work by doing the following:
 
     ```bash
     git add -A
-    git commit -m "Completed comp4081-s06"
+    git commit -m "Completed comp7012-s05retry"
     ```
 
 1. Generate a ZIP archive of your project by running the following command from within the top-level folder of your project's working directory:
 
     ```bash
-    git archive -o ../comp4081-s06-submission.zip --prefix=comp4081-s06-submission/ HEAD
+    git archive -o ../comp7012-s05retry-submission.zip --prefix=comp7012-s05retry-submission/ HEAD
     ```
 
-    This command should result in a file `comp4081-s06-submission.zip` being created in your `workspace` folder.
+    This command should result in a file `comp7012-s05retry-submission.zip` being created in your `workspace` folder.
 
-1. Upload this ZIP file to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `comp4081-s06 zip (no video)`.
+1. Upload this ZIP file to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `comp7012-s05retry zip (no video)`.
 
     **This step must be completed by the end of the test time.**
 
 1. Stop your screen-capture recording such that a video file containing the recording is now created.
 
-1. Upload your video recording to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `comp4081-s06 video only`. Click the "`Record Video`" link to upload your video.
+1. Upload your video recording to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `comp7012-s05retry video only`. Click the "`Record Video`" link to upload your video.
 
     A 15-minute grace period is given beyond the end of the test time for the submission of your video.
 

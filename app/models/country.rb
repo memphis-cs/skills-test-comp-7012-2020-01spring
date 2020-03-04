@@ -11,4 +11,9 @@
 #
 
 class Country < ApplicationRecord
+
+  validates :name, presence: true
+  validates :population, presence: true
+  validates :region, presence: true
+
 end
